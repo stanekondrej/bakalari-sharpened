@@ -8,19 +8,20 @@ public class UserInfo
 
     public void GetInfo(string? param)
     {
-        Console.WriteLine("Input your username: ");
+        Console.WriteLine("Napište své uživatelské jméno: ");
         username = Console.ReadLine();
             
-        Console.WriteLine("Input your Password: ");
+        Console.WriteLine("Napište své heslo: ");
         password = Console.ReadLine();
             
-        Console.WriteLine("Input the school URL, for example \"ceskolipska.cz\" (If the Bakaláři web app entry point is different than " +
-                          "\"bakalari.school.cz,\" leave blank): ");
+        Console.WriteLine("Napište adresu své školy, například \"ceskolipska.cz\" (Pokud je vstupní bod webové aplikace Bakalářů" +
+                          " odlišný od formátu \"bakalari.skola.cz,\" nechte pole prázdné): ");
         url = Console.ReadLine();
 
         if (url == "")
         {
-            Console.WriteLine("Input the full URL of the Bakaláři web app (For example \"bakalari.school.cz\"): ");
+            Console.WriteLine("Vložte kompletní adresu vstupního bodu webové aplikace Bakalářů vaší školy" +
+                              " (Například \"bakalari.school.cz\"): ");
             url = Console.ReadLine();
         }
     }
