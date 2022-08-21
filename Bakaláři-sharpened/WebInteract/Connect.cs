@@ -1,4 +1,4 @@
-namespace BaSHELLáři_csharp.WebInteract;
+namespace Bakaláři_sharpened.WebInteract;
 
 public class Connection
 {

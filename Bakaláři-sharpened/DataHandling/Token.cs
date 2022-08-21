@@ -1,4 +1,4 @@
-namespace BaSHELLáři_csharp.DataHandling;
+namespace Bakaláři_sharpened.DataHandling;
 public class Token
 {
     protected string token;

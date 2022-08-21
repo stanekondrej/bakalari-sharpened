@@ -1,4 +1,4 @@
-namespace BaSHELLáři_csharp;
+namespace Bakaláři_sharpened;
 
 using DataHandling;
 
